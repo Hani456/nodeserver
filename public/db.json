@@ -7,7 +7,8 @@
         "medicine_price": 5,
         "medicine_quantity":10,
         "medicine_description":"It helps in reducing pain, fever, and in higher doses, reduces inflammation.",
-        "medicine_exp_date":"12/21/2025"
+        "medicine_exp_date":"12/21/2025",
+        "medicine_img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLCsGv4AkE_L4m0vpL_mCISEJOk69RwM5weQ&usqp=CAU"
     },
     {
         "medicine_id": 2,
@@ -17,7 +18,8 @@
         "medicine_price": 7.79,
         "medicine_quantity":20,
         "medicine_description":"Relief from Heartburn, Acid Indigestion, Sour Stomach",
-        "medicine_exp_date":"05/25/2024"
+        "medicine_exp_date":"05/25/2024",
+        "medicine_img":"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71jMvknWNxL._AC_UL480_FMwebp_QL65_.jpg"
     },
     {
         "medicine_id": 3,
@@ -27,7 +29,8 @@
         "medicine_price": 9.50,
         "medicine_quantity":25,
         "medicine_description": "Treats bacterial infections in a variety of parts of the body",
-        "medicine_exp_date":"01/14/2026"
+        "medicine_exp_date":"01/14/2026",
+        "medicine_img":"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/61qXrZ2xksL._AC_UY327_FMwebp_QL65_.jpg"
     },
     {
         "medicine_id": 4,
@@ -37,7 +40,8 @@
         "medicine_price": 5,
         "medicine_quantity":35,
         "medicine_description":"Brain Health Support",
-        "medicine_exp_date":"11/18/2024"
+        "medicine_exp_date":"11/18/2024",
+        "medicine_img":"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/81WXk-8JO1L._AC_UL480_FMwebp_QL65_.jpg"
     },
     {
         "medicine_id": 5,
@@ -47,7 +51,8 @@
         "medicine_price": 8.99,
         "medicine_quantity":17,
         "medicine_description": "Soothe your cough from dry irritated throats using organic honey, apple cider vinegar, lemon, & ginger; ingredients",
-        "medicine_exp_date":"06/30/2023"
+        "medicine_exp_date":"06/30/2023",
+        "medicine_img":"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/71E-Vl-n4YL._AC_UL480_FMwebp_QL65_.jpg"
     },
     {
         "medicine_id": 6,
@@ -57,6 +62,7 @@
         "medicine_price": 5.99,
         "medicine_quantity":15,
         "medicine_description": "Treat your motion sickness symptom",
-        "medicine_exp_date":"08/28/2024"
+        "medicine_exp_date":"08/28/2024",
+        "medicine_img":"https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/51f-ICA7CVL._AC_SY879_.jpg"
     }
 ]}
