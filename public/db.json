@@ -1,0 +1,62 @@
+{"medicines":[
+    {
+        "medicine_id": 1,
+        "medicine_name": "Dolo 650",
+        "medicine_weight": "650mg",
+        "medicine_category":"Cold Cures",
+        "medicine_price": 5,
+        "medicine_quantity":10,
+        "medicine_description":"It helps in reducing pain, fever, and in higher doses, reduces inflammation.",
+        "medicine_exp_date":"12/21/2025"
+    },
+    {
+        "medicine_id": 2,
+        "medicine_name": "Wonder Belly",
+        "medicine_weight": "1000mg",
+        "medicine_category":"Antacids",
+        "medicine_price": 7.79,
+        "medicine_quantity":20,
+        "medicine_description":"Relief from Heartburn, Acid Indigestion, Sour Stomach",
+        "medicine_exp_date":"05/25/2024"
+    },
+    {
+        "medicine_id": 3,
+        "medicine_name": "Azithromycin",
+        "medicine_weight": "500mg",
+        "medicine_category":"Antibiotics",
+        "medicine_price": 9.50,
+        "medicine_quantity":25,
+        "medicine_description": "Treats bacterial infections in a variety of parts of the body",
+        "medicine_exp_date":"01/14/2026"
+    },
+    {
+        "medicine_id": 4,
+        "medicine_name": "Voost, Multivitamin for Women",
+        "medicine_weight": "200mg",
+        "medicine_category":"Vitamins",
+        "medicine_price": 5,
+        "medicine_quantity":35,
+        "medicine_description":"Brain Health Support",
+        "medicine_exp_date":"11/18/2024"
+    },
+    {
+        "medicine_id": 5,
+        "medicine_name": "Matys Cough Syrup",
+        "medicine_weight": "6 Fl Oz",
+        "medicine_category":"Cough Suppressants",
+        "medicine_price": 8.99,
+        "medicine_quantity":17,
+        "medicine_description": "Soothe your cough from dry irritated throats using organic honey, apple cider vinegar, lemon, & ginger; ingredients",
+        "medicine_exp_date":"06/30/2023"
+    },
+    {
+        "medicine_id": 6,
+        "medicine_name": "Meclizine HCL",
+        "medicine_weight": "25mg",
+        "medicine_category":"Antiemetics",
+        "medicine_price": 5.99,
+        "medicine_quantity":15,
+        "medicine_description": "Treat your motion sickness symptom",
+        "medicine_exp_date":"08/28/2024"
+    }
+]}
