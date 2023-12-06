@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alice&family=Prata&family=Trirong&family=Alegreya+Sans&display=swap"
+        rel="stylesheet">
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <span>
+            <img src="assets/hletter.jpeg" id="logo" alt="logo"/>
+        </span>
+        <span>
+            <i class="fa fa-bars" id="hamburger-menu" onclick="handleMenuClick()" style="font-size:25px"></i>
+            <i class="fa fa-close" id="hide-close-icon" onclick="handleCloseClick()" style="font-size:25px"></i>
+        </span>
+        <nav id="header-nav">
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="center-text">
+            <div class="flex-display">
+                <div class="text-color">
+                    <h1>Hello World!</h1>
+                    <h1>I'm Hanisha</h1>
+                    <p style="padding-top:50px;">abcd@gmail.com</p>
+                </div>
+                <img src="assets/girlvector.jpg" alt="My Image" id="my-image"/>
+                <div class="flex-display text-color">
+                    <p id="years">2</p>
+                    <span>
+                        <p>YEARS</p>
+                        <p style="line-height: 0px;">EXPERIENCE</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="center-text">
+            <h4 class="text-color">TRACK 01</h4>
+            <h4 class="text-color">ABOUT ME</h4>
+            <!-- <progress class="track" value="16" max="100"> 16% </progress> -->
+            <div class="progress" id="div1"></div>
+            <div class="spacing">
+                <span class="text-color">My Portfolio</span>
+                <span><i class="fa fa-volume-up"> Mixtape </i></span>
+                &nbsp;
+                <span>
+                    <i class="fa fa-step-backward"></i>&nbsp;
+                    <i class="fa fa-pause"></i>&nbsp;
+                    <i class="fa fa-step-forward"></i>&nbsp;
+                </span>
+                <span><i class="fa fa-volume-up"></i></span>
+            </div>
+            <p>
+                I'm a qualified and professional full stack developer with 2years of experience in Java, JavaScript and
+                React technologies.
+                Develop and maintain friendly relationships with customers,leading to an increase in regulars.
+                Adaptable, quick learner,innovative in designing new features and able to deal withpressure.
+                Skilled at debugging and problem solving.
+            </p>
+        </section>
+        <section id="education" class="center-text">
+            <h4 class="text-color"> TRACK 02 </h4>
+            <h4 class="text-color">EDUCATION</h4>
+            <div class="progress" id="div2"></div>
+            <div class="spacing">
+                <span class="text-color">My Portfolio</span>
+                <span><i class="fa fa-volume-up"> Mixtape </i></span>
+                &nbsp;
+                <span>
+                    <i class="fa fa-step-backward"></i>&nbsp;
+                    <i class="fa fa-pause"></i>&nbsp;
+                    <i class="fa fa-step-forward"></i>&nbsp;
+                </span>
+                <span><i class="fa fa-volume-up"></i></span>
+            </div>
+            <ul>
+                <li>
+                    <p>University of New Haven  - Expected May 2024</p>
+                    <p>Masters in Computer Science</p>
+                </li>
+                <li>
+                    <p>QIS Engineering College -  June 2016- Sep 2020</p>
+                    <p>Bachelor of Technology , Computer Science</p>
+                </li>
+            </ul>
+        </section>
+        <section id="skills" class="center-text">
+            <h4 class="text-color">TRACK 03</h4>
+            <h4 class="text-color">SKILLS</h4>
+            <div class="progress" id="div3"></div>
+            <div class="spacing">
+                <span class="text-color">My Portfolio</span>
+                <span><i class="fa fa-volume-up"> Mixtape </i></span>
+                &nbsp;
+                <span>
+                    <i class="fa fa-step-backward"></i>&nbsp;
+                    <i class="fa fa-pause"></i>&nbsp;
+                    <i class="fa fa-step-forward"></i>&nbsp;
+                </span>
+                <span><i class="fa fa-volume-up"></i></span>
+            </div>
+            <div class="flex-display">
+                <img src="assets/html2_icon.gif" alt="HTML" class="skill-img" />
+                <img src="assets/css_icon.gif" alt="CSS" class="skill-img" />
+                <img src="assets/java2_icon.gif" alt="Java" class="skill-img" />
+                <img src="assets/javascript_icon.gif" alt="Javascript" class="skill-img" />
+                <img src="assets/reactjs_icon.gif" alt="ReactJs" class="skill-img" />
+                <img src="assets/database_icon.gif" alt="MySQL" class="skill-img" />
+            </div>
+        </section>
+        <section class="flex-display" id="flex-display">
+            <section id="experience" class="center-text">
+                <h4 class="text-color">TRACK 04</h4>
+                <h4 class="text-color"> EXPERIENCE</h4>
+                <div class="progress" id="div4"></div>
+                <div class="spacing">
+                    <span class="text-color">My Portfolio</span>
+                    <span><i class="fa fa-volume-up"> Mixtape </i></span>
+                    &nbsp;
+                    <span>
+                        <i class="fa fa-step-backward"></i>&nbsp;
+                        <i class="fa fa-pause"></i>&nbsp;
+                        <i class="fa fa-step-forward"></i>&nbsp;
+                    </span>
+                    <span><i class="fa fa-volume-up"></i></span>
+                </div>
+                <ul>
+                    <li>
+                        <p>NEW RELIC | Software Developer</p>
+                        <p><i class="fa fa-calendar"></i> May 2022 - Dec 2022</p>
+                        Contributed to revamping the application views to new structure using React.
+                    </li>
+                    <li>
+                        <p>HCL TECHNOLOGIES | Software Developer</p>
+                    <p><i class="fa fa-calendar"></i> Oct 2020 - May 2022</p>
+                    Reusable component kit was developed based on customer download feedback
+                    from all channels, which are Hamburger Menu, Google Login
+                    </li>
+                </ul>
+            </section>
+            <section id="projects" class="center-text">
+                <h4 class="text-color">TRACK 05</h4>
+                <h4 class="text-color">PROJECTS</h4>
+                <div class="progress" id="div5"></div>
+                <div class="spacing">
+                    <span class="text-color">My Portfolio</span>
+                    <span><i class="fa fa-volume-up"> Mixtape </i></span>
+                    &nbsp;
+                    <span>
+                        <i class="fa fa-step-backward"></i>&nbsp;
+                        <i class="fa fa-pause"></i>&nbsp;
+                        <i class="fa fa-step-forward"></i>&nbsp;
+                    </span>
+                    <span><i class="fa fa-volume-up"></i></span>
+                </div>
+                <ul>
+                    <li>
+                       1. Developed HTML Code Generator PWA App
+                    </li>
+                    <li>
+                        2. Developed Pharmacy billing using MySQL database.
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <section id="contact" class="center-text">
+            <h4 class="text-color">TRACK 06</h4>
+            <h4 class=" text-color">CONTACT</h4>
+            <div class="progress" id="div6"></div>
+            <div class="spacing">
+                <span class="text-color">My Portfolio</span>
+                <span><i class="fa fa-volume-up"> Mixtape </i></span>
+                &nbsp;
+                <span>
+                    <i class="fa fa-step-backward"></i>&nbsp;
+                    <i class="fa fa-pause"></i>&nbsp;
+                    <i class="fa fa-step-forward"></i>&nbsp;
+                </span>
+                <span><i class="fa fa-volume-up"></i></span>
+            </div>
+            <div class="skill-icons">
+                <p>Start by <u style="font-size: 20px;" class="text-color"> Saying HI</u></p>
+                <div>
+                    <a href="#" target="_blank"><img src="assets/linkedin_icon.png" alt="linkedin"/></a>
+                    <a href="#" target="_blank"><img src="assets/github_icon.png" alt="github"/></a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
